@@ -31,9 +31,7 @@ describe('Order Food Flow - Cash Payment', () => {
         });
   
       });
-      // Step 3: Go to Cart / Checkout
-      cy.xpath("//div[@class='relative']//*[name()='svg']").click();
-      cy.wait(2000);
+   
       cy.xpath("//button[normalize-space()='Proceed to Checkout']").click();
       cy.wait(2000);
       // Step 4: Fill in address

@@ -1,1 +1,1 @@
-checkking
+console.log('check.js loaded');
